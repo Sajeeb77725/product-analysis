@@ -1,28 +1,27 @@
 .home  {
     display: grid;
-    grid-template-columns: 2.5fr 1.5fr;
+    grid-template-columns: 2.2fr 1.8fr;
     justify-content: center;
     margin-top: 30px;
     margin-left: 90px;
 }
 
-.phone-review{
+.laptop-review{
     font-size: 25px;
 }
 
-.phone-review button{
+.laptop-review button{
     border: none;
     padding: 20px;
     background-color: rgb(200, 174, 247);
     border-radius: 10px;
     color: blueviolet;
     font-weight: bold;
-    margin-top: 15px;
     cursor: pointer;
 }
 
-.phone-img img{
-    width: 400px;
+.laptop-img img{
+    width: 570px;
     height: 500px;
     margin-left: 20px;
 }

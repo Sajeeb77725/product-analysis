@@ -1,27 +1,31 @@
 import React from "react";
+import ReviewAtHome from "../ReviewAtHome/ReviewAtHome";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="phone-review">
-        <h1>Choose your next phone</h1>
-        <h1 style={{ color: "blue" }}>Choose your best phone</h1>
-        <p>
-          The iPhone 13 and 13 Mini have better battery life, better cameras and
-          a newer processor than last year's iPhone 12 and 12 Mini. Overall both
-          the iPhone 13 and 13 Mini are excellent phones for most people, which
-          is why we've given them a CNET Editors' Choice Award. Our original
-          review, first published in September, follows.
-        </p>
-        <button>Live Demo</button>
+    <div>
+      <div className="home">
+        <div className="laptop-review">
+          <h1>Choose your next laptop</h1>
+          <h1 style={{ color: "blue" }}>Choose your best laptop</h1>
+          <p>
+            The HP Spectre x360 (2020) is an excellent option for anyone in the
+            market for a solid notebook. Even in the shadow of its successor,
+            the HP Spectre x360 (2021), it can hold its own, rocking double the
+            RAM of prior models alongside Iris Plus integrated graphics and the
+            Intel Core i7-1065G7 CPU.
+          </p>
+          <button>Live Demo</button>
+        </div>
+        <div className="laptop-img">
+          <img
+            src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge_wm_brb/public/field/image/2021/01/hp-spectre-x360-14-hero3.jpg"
+            alt=""
+          />
+        </div>
       </div>
-      <div className="phone-img">
-        <img
-          src="https://m.media-amazon.com/images/I/61HnuJc8WHL._AC_SX522_.jpg"
-          alt=""
-        />
-      </div>
+      <ReviewAtHome></ReviewAtHome>
     </div>
   );
 };
