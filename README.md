@@ -1,6 +1,6 @@
 # Review & Charts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Lve site link](https://capable-bonbon-7bfc06.netlify.app/).
 
 ## BULLET POINTS
 
