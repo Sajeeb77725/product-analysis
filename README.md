@@ -2,9 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## BULLET POINTS
 
-In the project directory, you can run:
+Project Description:
+
+**1. This is a react router web page!**
+
+First of all make a react app using `npx create-reat-app app-nam` and customized the the page like your design.
+
+**2. Into the react web page**
+
+Make a folder call component in src file. Then make component that you need for your web-site. Make two folder in one component called as first one is `name.js` and second one is `name.css`
+
+**3. Install Routes in react app**
+
+Frist of all go to your folder where you run the web-site and the run a command called ` npm install react-router`.
+
+**4.Set Routes in web-site**
+
+After the installation go to `index.js` and store the `<App />` in `<BrowserRouter> </BrowserRouter>`
 
 ### `npm start`
 
